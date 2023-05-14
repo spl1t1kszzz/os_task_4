@@ -28,7 +28,7 @@ void f() {
 
 void foo() {
     int array[4] = {0xaa, 0xbb, 0xcc, 0xdd};
-
+    foo();
 }
 
 void sigbus_handler(int sig) {
